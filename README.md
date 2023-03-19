@@ -1,4 +1,4 @@
-# bahamas-coastal-vacations
+# Bahamas-Coastal-Vacations
 
 
 
