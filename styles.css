@@ -4,32 +4,61 @@
     font-family: 'Roboto';
 }
 
+.author {
+    font-size: 1.525rem;
+    margin-top: 1.25rem;
+    margin-left: 50.5rem;
+}
+
+.cta,
 .footer,
 .main,
-.navbar {
+.navbar,
+.testimonial {
     padding-right: 17.5rem;
     padding-left: 17.5rem;
 }
+
 
 button {
     height: 2.5rem;
     width: 7.5rem;
     background-color: #3882F6;
     border-radius: 5px;
-    color: white;
+    color: #F9FAF8;
 }
 
 .cta {
+    height: 50vh;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-info {
     background-color: #3882F6;
+    padding: 1.75rem;
+    width: 50%;
+    height: 25%;
+    color: #F9FAF8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer {
     height: 7.5vh;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gallery {
+    display: flex;
 }
 
 h1 {
@@ -41,7 +70,7 @@ h1 {
     display: flex;
     color: #F9FAF8;
     background-color: #1f2937;
-    height: 60vh;
+    height: 70vh;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -49,13 +78,13 @@ h1 {
 .header-img {
     background-image: url('./img/mike-swigunski-k9Zeq6EH_bk-unsplash.jpg');
     background-size: cover;
-    height: 25.875rem;
+    height: 20rem;
     width: 41rem;
 }
 
 .info {
 
-    height: 25.875rem;
+    height: 15.875rem;
     width: 35.625rem;
     padding: 1.5rem;
     text-align: center;
@@ -88,21 +117,43 @@ li:not(:last-child) {
     margin-right: 1.125rem;
 }
 
+.main {
+    height: 50vh;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: orangered;
+}
+
 .navbar  {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     height: 7.5vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.signup-1 {
-    border-color: none;
+.quote {
+    width: 60%;
+    font-size: 2.25rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .signup-2 {
-    border-color: white;   
+    border: 2.25px solid #F9FAF8;   
+}
+
+.testimonial {
+    height: 50vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
