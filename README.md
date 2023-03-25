@@ -1,9 +1,11 @@
-# Bahamas-Coastal-Vacations
+# Coastal Vacations
 
 
 
 ### Creator Credit
 
-- Maldives Bungalows Over Waters - Mike Swigunski
+- Compilation Video of the Beauty of Maldives Beaches and Resort - Videographer Shiyaz
 
 - Beach House - Joseph Costa
+
+- Bungalows over Water - Mike Swigunski

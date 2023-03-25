@@ -7,14 +7,20 @@
 .footer,
 .main,
 .navbar {
-    padding-right: 7.5vw;
-    padding-left: 7.5vw;
+    padding-right: 17.5rem;
+    padding-left: 17.5rem;
 }
 
 button {
     height: 2.5rem;
     width: 7.5rem;
+    background-color: #3882F6;
     border-radius: 5px;
+    color: white;
+}
+
+.cta {
+    background-color: #3882F6;
 }
 
 .footer {
@@ -27,27 +33,40 @@ button {
 }
 
 h1 {
+    font-size: 3rem;
     font-weight: 900;
 }
 
 .header-section {
     display: flex;
-    background-color: orangered;
-    color: white;
-    height: 92.5vh;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    height: 60vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.header-img {
+    background-image: url('./img/mike-swigunski-k9Zeq6EH_bk-unsplash.jpg');
+    background-size: cover;
+    height: 25.875rem;
+    width: 41rem;
 }
 
 .info {
-    background-color: yellowgreen;
-    height: 25%;
+
+    height: 25.875rem;
+    width: 35.625rem;
     padding: 1.5rem;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: left;
+    align-content: flex-start;
+}
+
+.info-text {
+    margin-bottom: 10px;
 }
 
 li:not(:last-child) {
@@ -55,9 +74,14 @@ li:not(:last-child) {
     font-size: 1.075rem;
 }
 
+.links li {
+    font-size: 1.25rem;
+}
+
 .logo {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    color: #F9FAF8;
 }
 
 .logo-img {
@@ -71,6 +95,14 @@ li:not(:last-child) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.signup-1 {
+    border-color: none;
+}
+
+.signup-2 {
+    border-color: white;   
 }
 
 ul {
